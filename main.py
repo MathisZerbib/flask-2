@@ -24,7 +24,7 @@ def download_and_convert_image_from_ipfs(cid, output_path):
 
 @app.route('/')
 def index():
-    return jsonify({"Choo Choo": "Welcome to your Flask app 🚅"})
+    return jsonify({"AI Antifraud": "Welcome to our AI antifraud 🚅"})
     
 @app.route('/run-similarity', methods=['POST'])
 def run_similarity():
