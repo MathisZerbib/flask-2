@@ -12,7 +12,7 @@ app = Flask(__name__)
 from similarity import get_similarity_score
 
 def download_and_convert_image_from_ipfs(cid, output_path):
-    ipfs_gateway_url = f"https://ipfs.io/ipfs/{cid}"
+    ipfs_gateway_url = f"https://gateway.pinata.cloud/ipfs/{cid}"
     print(f"Downloading and converting image from IPFS: {ipfs_gateway_url}")
     
     try:
